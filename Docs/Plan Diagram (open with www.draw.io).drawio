@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-07T14:25:36.110Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.78" etag="F2IU0KCjhkcqn-88GMUp" version="20.8.18" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-07T14:29:44.874Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.78" etag="-mRI52XzVwQajRFdEnCa" version="20.8.18" type="github" pages="5">
   <diagram id="SsYVPQBjMPXw2YepnRtf" name="Overview">
     <mxGraphModel dx="2049" dy="1091" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="2000" math="0" shadow="0">
       <root>
@@ -608,7 +608,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UBDlU0-dmZ3OMBiueULT" name="Pregame Flow">
-    <mxGraphModel dx="1687" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="2000" math="0" shadow="0">
+    <mxGraphModel dx="2219" dy="939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="2000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -729,17 +729,37 @@
         <mxCell id="l0ujYWOHNtggIaAYBqrn-31" value="Send Game Start Packet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="570" y="920" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="orcNdIHe5E4o3Q_vqxng-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="l0ujYWOHNtggIaAYBqrn-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="l0ujYWOHNtggIaAYBqrn-32" value="Game Start" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="210" y="920" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="orcNdIHe5E4o3Q_vqxng-2" value="Client Stops" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="20" y="600" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="orcNdIHe5E4o3Q_vqxng-5" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="705" y="285" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="orcNdIHe5E4o3Q_vqxng-6" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="517.5" y="290" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="orcNdIHe5E4o3Q_vqxng-7" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="500" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="orcNdIHe5E4o3Q_vqxng-8" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="590" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="orcNdIHe5E4o3Q_vqxng-11" value="To In-Game Flow" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="215" y="1030" width="110" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="DtKZegbvSA8duGaDGav1" name="Game Flow">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="2000" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="2000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -880,8 +900,14 @@
         <mxCell id="8PP1UlnmJlpLkAvYvbZq-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="8PP1UlnmJlpLkAvYvbZq-4" target="K3Q74W8TPTYoPVdy1AIU-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8PP1UlnmJlpLkAvYvbZq-4" value="Get AI Manager move" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="8PP1UlnmJlpLkAvYvbZq-4" value="Get AI Manager move" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="850" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PkpO6G4mMQ8ixBJugO4o-2" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="950" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PkpO6G4mMQ8ixBJugO4o-3" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="880" y="880" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
